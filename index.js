@@ -11,7 +11,8 @@ function logShout(string) {
 function logWhisper(string) {
     console.log(string.toLowerCase())
 }
-//we can use if else inside functio
+//we can use if else inside function
+
 function sayHiToHeadphonedRoommate(string) {
     if (string === 'hello')
         return "I can\'t hear you!"
@@ -20,3 +21,4 @@ function sayHiToHeadphonedRoommate(string) {
     else (string === "Let's have dinner together!")
     return "I would love to!"
 }
+
